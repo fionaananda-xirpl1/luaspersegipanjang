@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rectangle Converter</title>
+    <style>
+        .rectangle-container{
+            background-color:darkgreen;
+            color:darkseagreen;
+            width: 500px;
+            border: 30px solid grey;
+            padding: 50px;
+            margin: auto;
+        }
+        button{
+            background-color:chartreuse;
+            color:black;
+            border: none;
+            min-height: 50px;
+            min-width: 100px;
+        }
+        button:hover{
+            background-color:darkslategray;
+            color:azure;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="rectangle-container">
+        <h1>Rectangle Converter</h1>
+        <p>Panjang (cm)</p>
+        <input class="panjang-input-field" type="text"/>
+        <p>Lebar (cm)</p>
+        <input class="lebar-input-field" type="text"/>
+        <button onclick="myFunction()" class="rectangle">Rectangle</button>
+    </div>
+    <script src="rec.js"></script>
+
+
+</body>
+</html>
